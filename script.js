@@ -150,8 +150,27 @@ if(height) {
 //Equality Operators
 
 
-const age = 18;
+const age = '18';
 
-if(age === 18) console.log('You just became');
+if(age === 18) console.log('You just became');//stricrt equality operator
 
-if(age == 18) console.log('You just became');
+if(age == 18) console.log('You just became');// Loose equality operator
+
+const favorite = Number(prompt("What's your favoritenumber"))
+console.log(favorite);
+
+if (favorite === 7) {
+    console.log('Cool! 40 is an amazing number');
+}else if (favorite === 7){
+    console.log('7 is a cool number');
+}
+
+
+//LOGICAL OPERATOR
+
+const hasDriverLicense = true;
+const hasGoodVision = true;
+
+console.log(hasDriverLicense && hasGoodVision);
+
+
