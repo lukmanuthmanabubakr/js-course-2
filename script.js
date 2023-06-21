@@ -205,40 +205,59 @@ if (scoreDolphins > scoreKoalas && scoreDolphins) {
 
 //Switch statement
 
-const day = "tuesday";
-switch (day) {
-  case "monday":
-    console.log("plan my course structure");
-    console.log("Go to coding meetup");
-    break;
-  case "tuesday":
-    console.log("Prepare theory videos");
-    break;
-  case "wednesday":
-  case "thursday":
-    console.log('write codes');
-    case 'friday':
-      console.log('Record videos');
-      break;
-      case 'Saturday':
-        case "Sunday":
-        console.log('Enjoy the weekend :D');
-        break;
-        default:
-          console.log('Not a valid day!');
+// const day = "tuesday";
+// switch (day) {
+//   case "monday":
+//     console.log("plan my course structure");
+//     console.log("Go to coding meetup");
+//     break;
+//   case "tuesday":
+//     console.log("Prepare theory videos");
+//     break;
+//   case "wednesday":
+//   case "thursday":
+//     console.log('write codes');
+//     case 'friday':
+//       console.log('Record videos');
+//       break;
+//       case 'Saturday':
+//         case "Sunday":
+//         console.log('Enjoy the weekend :D');
+//         break;
+//         default:
+//           console.log('Not a valid day!');
+// }
+
+
+// if (day === 'monday') {
+//   console.log("plan my course structure");
+//   console.log("Go to coding meetup");
+// }else if (day === 'tuesday') {
+//   console.log("Prepare theory videos");
+// }else if (day === 'wednesday' || day === 'thursday') {
+//   console.log('write codes');
+// }else if (day === 'friday') {
+//   console.log('Record videos');
+// }else if (day === 'Saturday || Sunday') {
+//   console.log('Enjoy the weekend :D');
+// }
+
+
+// if (23 > 10) {
+//   const str = '23 is bigger';
+//   console.log(str);
+// } else {
+  
+// }
+
+const age = 15;
+age >= 18 ? console.log('Ilike yam') : console.log('I like to drink water 💧');
+
+let drink2;
+if(age >= 18) {
+  drink2 = 'wine 🍷'
+}else {
+  drink2 = 'water 💧'
 }
 
-
-if (day === 'monday') {
-  console.log("plan my course structure");
-  console.log("Go to coding meetup");
-}else if (day === 'tuesday') {
-  console.log("Prepare theory videos");
-}else if (day === 'wednesday' || day === 'thursday') {
-  console.log('write codes');
-}else if (day === 'friday') {
-  console.log('Record videos');
-}else if (day === 'Saturday || Sunday') {
-  console.log('Enjoy the weekend :D');
-}
-
+console.log(drink2);
